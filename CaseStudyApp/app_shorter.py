@@ -3,7 +3,7 @@ import streamlit as st
 import pickle
 
 # Load the model and encoder
-model = pickle.load(open('/Users/kayvidushinie/Desktop/CaseStudy/model_top.pkl', 'rb'))
+model = pickle.load(open('CaseStudyApp/model_top.pkl', 'rb'))
 
 # Define the feature columns
 cols = ['delinquency_status', 'number_of_credit_applications',
