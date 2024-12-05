@@ -1,6 +1,5 @@
 import pandas as pd 
 import streamlit as st 
-from scikit-learn import preprocessing
 import pickle
 
 # Load the model and encoder
